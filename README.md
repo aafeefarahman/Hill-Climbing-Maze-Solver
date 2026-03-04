@@ -1,0 +1,127 @@
+<img width="609" height="218" alt="image" src="https://github.com/user-attachments/assets/a84f6b57-eea6-4dc5-a5b8-5df56d9e52fa" />
+
+
+A visualization of the **Hill Climbing search algorithm** solving a randomly generated maze using **Python and Pygame**.
+
+The agent starts from the **top-left corner** of the maze and attempts to reach the **goal at the bottom-right corner** by always moving toward the cell with the **lowest heuristic value (Manhattan distance)**.
+
+This project demonstrates how **local search algorithms** work and also highlights one of their key limitations: **getting stuck at local maxima**.
+
+---
+
+## Features
+
+* Random maze generation
+* Visualization using **Pygame**
+* Hill Climbing heuristic search
+* Path tracking visualization
+* Detection of **local maxima (stuck state)**
+* Reset maze functionality
+
+---
+
+## Algorithm Used
+
+### Hill Climbing
+
+Hill Climbing is a **greedy local search algorithm** used in Artificial Intelligence.
+
+The algorithm works as follows:
+
+1. Start from an initial position.
+2. Look at neighboring cells.
+3. Calculate the heuristic value for each neighbor.
+4. Move to the neighbor with the **lowest heuristic value**.
+5. Repeat until:
+
+   * The goal is reached
+   * No better neighbor exists (local maximum) 
+
+---
+
+## Heuristic Function
+
+The algorithm uses **Manhattan Distance** as the heuristic.
+
+h(n) = |x₁ − x₂| + |y₁ − y₂|
+
+Where:
+
+* (x₁, y₁) → current position
+* (x₂, y₂) → goal position
+
+---
+
+## Technologies Used
+
+* **Python**
+* **Pygame**
+* **Artificial Intelligence (Search Algorithms)**
+
+---
+
+
+---
+
+## Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/aafeefarahman/Hill-Climbing-Maze-Solver.git
+```
+
+Navigate to the project folder:
+
+```
+cd Hill-Climbing-Maze-Solver
+```
+
+Install dependencies:
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Project
+
+Run the following command:
+
+```
+python main.py
+```
+
+The maze visualization window will open and the agent will start solving the maze automatically.
+
+---
+
+## Controls
+
+| Key   | Action         |
+| ----- | -------------- |
+| **R** | Reset the maze |
+
+---
+
+## Limitation
+
+Hill Climbing can get stuck in a **local maximum**, meaning the algorithm may stop before reaching the goal if no neighboring cell has a better heuristic value.
+
+This behavior demonstrates an important drawback of **greedy search algorithms**.
+
+---
+
+## Learning Outcomes
+
+This project demonstrates:
+
+* Local Search Algorithms
+* Heuristic Functions
+* AI Pathfinding
+* Visualization using Python
+
+---
+
+If you found this project helpful, feel free to **fork the repository and experiment with other search algorithms like A***.
