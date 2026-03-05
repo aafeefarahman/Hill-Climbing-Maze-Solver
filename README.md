@@ -1,4 +1,4 @@
-<img width="690" height="208" alt="image" src="https://github.com/user-attachments/assets/dabfe902-eea2-46d9-88cd-7c1d7b685890" />
+  <img width="690" height="208" alt="image" src="https://github.com/user-attachments/assets/dabfe902-eea2-46d9-88cd-7c1d7b685890" />
 
 
 A visualization of the **Hill Climbing search algorithm** solving a randomly generated maze using **Python and Pygame**.
