@@ -1,7 +1,7 @@
   <img width="690" height="208" alt="image" src="https://github.com/user-attachments/assets/dabfe902-eea2-46d9-88cd-7c1d7b685890" />
 
 
-A visualization of the **Hill Climbing search algorithm** solving a randomly generated maze using **Python and Pygame**.
+A Visualization of the **Hill Climbing search algorithm** solving a randomly generated maze using **Python and Pygame**.
 
 The agent starts from the **top-left corner** of the maze and attempts to reach the **goal at the bottom-right corner** by always moving toward the cell with the **lowest heuristic value (Manhattan distance)**.
 
