@@ -134,5 +134,3 @@ This project demonstrates:
 * Visualization using Python and Pygame
 
 ---
-
-If you want, I can also help you add **one section that makes this README look much more professional for GitHub (like “Project Structure” and “Future Improvements”)** — it really helps when recruiters or hackathon judges see your repo.
